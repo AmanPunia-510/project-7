@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: #1D1A1A;
+    position: relative;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 128%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.paragraph {
+    color: var(--white, #FFF);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    margin-bottom: 48px;
+}
+
+.main {
+    border-radius: 46px;
+    background: #151313;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+}
+
+.main1 h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.main1 p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    opacity: 0.7;
+}
+
+.main span {
+    background-color: #ffffff;
+    height: 73px;
+    width: 73px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-family: Poppins;
+    color: #151313;
+    font-weight: 700;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.main:hover {
+    background-color: #0C0B0B;
+    transition: 1s;
+}
+
+.main:hover span {
+    background: linear-gradient(to right, #FFA800, #F06500);
+    color: #fff;
+    transition: 1s;
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50%;
+    transform: translateY(-50%);
+}
